@@ -1,0 +1,664 @@
+{
+  "seed": 0,
+  "opening_plies": 8,
+  "max_plies": 300,
+  "games_per_pairing_per_condition": 100,
+  "stockfish": {
+    "depth": 16,
+    "threads": 4,
+    "hash_mb": 512,
+    "skip_book": true
+  },
+  "openings": [
+    {
+      "game_id": "TCEC-S00-Thoresen-Match-5:9",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "d2d4",
+        "e5d4",
+        "f3d4",
+        "g8f6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S00-Thoresen-Tournament-3:17",
+      "moves": [
+        "e2e4",
+        "d7d6",
+        "d2d4",
+        "g8f6",
+        "b1c3",
+        "g7g6",
+        "g1f3",
+        "f8g7"
+      ]
+    },
+    {
+      "game_id": "TCEC-S01-Division-1:55",
+      "moves": [
+        "e2e4",
+        "c7c6",
+        "d2d4",
+        "d7d5",
+        "e4d5",
+        "c6d5",
+        "c2c4",
+        "g8f6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S03-Stage-1:64",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "d7d6",
+        "d2d4",
+        "c5d4",
+        "f3d4",
+        "g8f6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S04-Stage-3:28",
+      "moves": [
+        "e2e4",
+        "c7c6",
+        "d2d4",
+        "d7d5",
+        "b1c3",
+        "d5e4",
+        "c3e4",
+        "c8f5"
+      ]
+    },
+    {
+      "game_id": "TCEC-S05-Stage-2:19",
+      "moves": [
+        "e2e4",
+        "e7e6",
+        "d2d4",
+        "d7d5",
+        "e4e5",
+        "c7c5",
+        "c2c3",
+        "b8c6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S05-Superfinal:9",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "c1g5",
+        "c7c5",
+        "d4d5",
+        "f6e4",
+        "g5f4",
+        "d8b6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S06-Stage-4:19",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "e7e6",
+        "c2c3",
+        "g8f6",
+        "e4e5",
+        "f6d5"
+      ]
+    },
+    {
+      "game_id": "TCEC-S09-Rapid:762",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "d7d6",
+        "d2d4",
+        "c5d4",
+        "d1d4",
+        "e7e5"
+      ]
+    },
+    {
+      "game_id": "TCEC-S09-Stage-1a:114",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "a7a6",
+        "c2c3",
+        "e7e6",
+        "d2d4",
+        "d7d5"
+      ]
+    },
+    {
+      "game_id": "TCEC-S09-Stage-3:201",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1c4",
+        "f8c5",
+        "c2c3",
+        "c5b6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S10-Superfinal:85",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "c2c4",
+        "e7e6",
+        "b1c3",
+        "f8e7",
+        "c4d5",
+        "e6d5"
+      ]
+    },
+    {
+      "game_id": "TCEC-S14-Cup-2:123",
+      "moves": [
+        "e2e4",
+        "g7g6",
+        "d2d4",
+        "f8g7",
+        "c2c4",
+        "b8c6",
+        "g1f3",
+        "e7e5"
+      ]
+    },
+    {
+      "game_id": "TCEC-S14-Cup-2:208",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "d7d6",
+        "d2d4",
+        "c5d4",
+        "f3d4",
+        "g8f6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S16-Cup-4:112",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "b1c3",
+        "g8f6",
+        "f3e5",
+        "c6e5"
+      ]
+    },
+    {
+      "game_id": "TCEC-S16-League-1:129",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1b5",
+        "a7a6",
+        "b5a4",
+        "g8f6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S16-NN-test:165",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "c1f4",
+        "d7d6",
+        "e2e3",
+        "b8d7",
+        "g1f3",
+        "g7g6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S16-Viewer-Submitted-Openings-Bonus-1:39",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "e7e6",
+        "b2b4",
+        "c5b4",
+        "a2a3",
+        "g8f6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S16-Viewer-Submitted-Openings-Bonus-7:22",
+      "moves": [
+        "b2b3",
+        "d7d5",
+        "g1f3",
+        "f7f5",
+        "c1a3",
+        "e7e6",
+        "a3f8",
+        "e8f8"
+      ]
+    },
+    {
+      "game_id": "TCEC-S19-League-1:4",
+      "moves": [
+        "c2c4",
+        "g8f6",
+        "b1c3",
+        "g7g6",
+        "g1f3",
+        "f8g7",
+        "d2d4",
+        "e8g8"
+      ]
+    },
+    {
+      "game_id": "TCEC-S19-Qualification-League:14",
+      "moves": [
+        "e2e4",
+        "c7c6",
+        "d2d4",
+        "d7d5",
+        "e4e5",
+        "c6c5",
+        "c2c3",
+        "b8c6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S20-Division-P:122",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1c4",
+        "f8c5",
+        "e1g1",
+        "d7d6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S21-DivP-Testing:1",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "g8f6",
+        "f3e5",
+        "d7d6",
+        "e5f3",
+        "f6e4"
+      ]
+    },
+    {
+      "game_id": "TCEC-S21-QL-L4-L3-Testing:252",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "g7g6",
+        "c2c4",
+        "f8g7",
+        "d2d4",
+        "d7d6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S21-Qualification-League:28",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1b5",
+        "g8f6",
+        "e1g1",
+        "f8c5"
+      ]
+    },
+    {
+      "game_id": "TCEC-S21-Swiss-2:358",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "g1f3",
+        "e7e6",
+        "c2c4",
+        "g8f6",
+        "b1c3",
+        "f8b4"
+      ]
+    },
+    {
+      "game_id": "TCEC-S21-Viewer-Submitted-Openings-Bonus-21:76",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "f2f4",
+        "e5f4",
+        "b1c3",
+        "d8h4",
+        "e1e2",
+        "d7d5"
+      ]
+    },
+    {
+      "game_id": "TCEC-S21-Viewer-Submitted-Openings-Bonus-21:88",
+      "moves": [
+        "b2b4",
+        "d7d5",
+        "c2c4",
+        "a7a5",
+        "b4b5",
+        "d5d4",
+        "g1f3",
+        "g7g5"
+      ]
+    },
+    {
+      "game_id": "TCEC-S22-Division-P:143",
+      "moves": [
+        "d2d4",
+        "d7d6",
+        "g1f3",
+        "g8f6",
+        "c2c4",
+        "b8d7",
+        "b1c3",
+        "e7e5"
+      ]
+    },
+    {
+      "game_id": "TCEC-S22-Infrafinal:17",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "c2c4",
+        "c8f5",
+        "c4d5",
+        "g8f6",
+        "g1f3",
+        "f6d5"
+      ]
+    },
+    {
+      "game_id": "TCEC-S23-4k-Testing:19",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "b1c3",
+        "g8f6",
+        "d2d4",
+        "f8b4"
+      ]
+    },
+    {
+      "game_id": "TCEC-S23-League-1:168",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "e7e6",
+        "d2d4",
+        "c5d4",
+        "f3d4",
+        "a7a6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S23-Noomen-Extra-2-Bonus:172",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "d7d6",
+        "d2d4",
+        "g8f6",
+        "d4c5",
+        "f6e4"
+      ]
+    },
+    {
+      "game_id": "TCEC-S23-Noomen-Extra-2-Bonus:77",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "g7g6",
+        "b1c3",
+        "f8g7",
+        "e2e4",
+        "d7d6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S24-4k-II:160",
+      "moves": [
+        "c2c4",
+        "c7c5",
+        "g1f3",
+        "d7d6",
+        "e2e3",
+        "g8f6",
+        "d2d4",
+        "b8d7"
+      ]
+    },
+    {
+      "game_id": "TCEC-S24-4k-Testing:7",
+      "moves": [
+        "e2e4",
+        "d7d5",
+        "e4d5",
+        "d8d5",
+        "b1c3",
+        "d5a5",
+        "d2d4",
+        "g8f6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S24-League-1:82",
+      "moves": [
+        "d2d4",
+        "g7g6",
+        "e2e4",
+        "f8g7",
+        "h2h4",
+        "c7c5",
+        "d4c5",
+        "d8a5"
+      ]
+    },
+    {
+      "game_id": "TCEC-S24-League-2:109",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "c7c5",
+        "d4d5",
+        "e7e6",
+        "b1c3",
+        "e6d5"
+      ]
+    },
+    {
+      "game_id": "TCEC-S25-League-2:68",
+      "moves": [
+        "e2e4",
+        "e7e5",
+        "g1f3",
+        "b8c6",
+        "f1b5",
+        "a7a6",
+        "b5a4",
+        "g8f6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S25-Moddbook-Kibitzer-Bonus:21",
+      "moves": [
+        "d2d4",
+        "d7d6",
+        "g1f3",
+        "c7c6",
+        "e2e4",
+        "g7g6",
+        "c2c4",
+        "g8f6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S26-4k-Testing:68",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "c2c4",
+        "e7e5",
+        "d4e5",
+        "d5d4",
+        "e2e3",
+        "f8b4"
+      ]
+    },
+    {
+      "game_id": "TCEC-S26-Superfinal:39",
+      "moves": [
+        "e2e4",
+        "c7c6",
+        "d2d4",
+        "d7d5",
+        "b1c3",
+        "d5e4",
+        "c3e4",
+        "b8d7"
+      ]
+    },
+    {
+      "game_id": "TCEC-S26-Swiss-6-Testing:277",
+      "moves": [
+        "d2d4",
+        "g8f6",
+        "c2c4",
+        "g7g6",
+        "b1c3",
+        "f8g7",
+        "e2e4",
+        "d7d6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S27-4K-IV:142",
+      "moves": [
+        "e2e4",
+        "c7c5",
+        "g1f3",
+        "d7d6",
+        "d2d4",
+        "c5d4",
+        "f3d4",
+        "g8f6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S27-4K-IV:19",
+      "moves": [
+        "b1c3",
+        "d7d5",
+        "g1f3",
+        "g8f6",
+        "d2d4",
+        "c7c5",
+        "d4c5",
+        "b8c6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S27-Altsufi-Kibitzer-Ponder-Bonus:47",
+      "moves": [
+        "e2e4",
+        "e7e6",
+        "d2d4",
+        "d7d5",
+        "b1c3",
+        "f8b4",
+        "e4e5",
+        "b7b6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S27-Cup-14-Testing:101",
+      "moves": [
+        "d2d4",
+        "g7g6",
+        "c2c4",
+        "f8g7",
+        "b1c3",
+        "d7d6",
+        "e2e4",
+        "b8c6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S27-Theory-Blitz-Kibitzer-Bonus:273",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "c2c4",
+        "e7e6",
+        "b1c3",
+        "a7a6",
+        "c4d5",
+        "e6d5"
+      ]
+    },
+    {
+      "game_id": "TCEC-S28-Blitz-Stress-Testing-2:102",
+      "moves": [
+        "e2e4",
+        "d7d5",
+        "e4d5",
+        "d8d5",
+        "b1c3",
+        "d5a5",
+        "d2d4",
+        "g8f6"
+      ]
+    },
+    {
+      "game_id": "TCEC-S28-League-1:258",
+      "moves": [
+        "d2d4",
+        "d7d5",
+        "c2c4",
+        "c7c6",
+        "g1f3",
+        "g8f6",
+        "d1b3",
+        "d5c4"
+      ]
+    }
+  ]
+}

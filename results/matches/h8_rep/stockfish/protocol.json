@@ -1,0 +1,26 @@
+{
+  "engine_name": "Stockfish 18",
+  "engine_sha256": "ae4c93fa9676ca7750d0714342fd8a5b1d018000fc6e0f6cedf112067b5ef374",
+  "depth": 16,
+  "threads": 4,
+  "hash_mb": 512,
+  "chess_version": "1.11.2",
+  "cp_cap": 1000,
+  "mate_cp": 1000,
+  "thresholds": [
+    50,
+    100,
+    300
+  ],
+  "opening_plies": 8,
+  "pgn_sha256": {
+    "rep_vs_h8": "64c8d38585dd75260b80d6eff03c5daa1182c971865d12b6afa210a3560cf391",
+    "rep_vs_h1_filter_off": "b123fa4caa1c0c02d12e968cc05b89fdfe0a9cf2ce944fc53893e5d6b148c261",
+    "rep_vs_h1_filter_on": "e326fa7be8f9fc6e038d8317a2ee73867d97207e77904e9b0265264e62ff2d1f"
+  },
+  "scoring_sha256": "ec18b4331ca6a1f89178337a4f8a2227a3a1c3ccd911bd45342b32549a0161c9",
+  "total_games": 300,
+  "engine_search_state": "Preserved within a process; fresh on resume. Completed evaluations are retained.",
+  "imported_evaluations_manifest": "imported_games.json",
+  "engine_sha256_scope": "New evaluations only; imported evaluation origins are listed separately."
+}

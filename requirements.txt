@@ -1,0 +1,5 @@
+# Versions used for the thesis runs and analysis
+chess==1.11.2
+numpy>=2.0
+matplotlib>=3.9
+torch>=2.4

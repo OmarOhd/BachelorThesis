@@ -1,0 +1,54 @@
+{
+  "checkpoints": {
+    "h8+rep@90k": {
+      "path": "/content/drive/MyDrive/BachelorThesis/colab_runs/checkpoints/h8_rep_lr50k_20261113T181553407907Z/model_step_90000.pt",
+      "sha256": "d8dd7e4642f71668ec32dd5e3dd9068c19198c299c6fd78d1b280ba411f498f4",
+      "pgn_name": "h8_rep_lr50k_20261113T181553407907Z@90000"
+    },
+    "h1@60k": {
+      "path": "/content/drive/MyDrive/BachelorThesis/baseline_checkpoints/h1_masked/model_step_60000.pt",
+      "sha256": "6398ec87e4aa9d4ad90cf21c3f4563d66c253b33356547f13ac5aa35366e958c",
+      "pgn_name": "h1_masked@60000"
+    },
+    "h8@30k": {
+      "path": "/content/drive/MyDrive/BachelorThesis/baseline_checkpoints/h8_masked/model_step_30000.pt",
+      "sha256": "1a66e6d474b1cb1d2b9849baa0c307362af0fbe0cd4c0afcb381b7afbb4524fa",
+      "pgn_name": "h8_masked@30000"
+    }
+  },
+  "source_sha256": {
+    "model/main.py": "3bb616e692cad4285d7030a87edc76b3c305e5e4c3cd167aee7c13815a4ab457",
+    "model/encoder.py": "589a38b55c6b4996ed16539b05e629cfa18893f299435c8378e907ed905d4087",
+    "model/repetition_features.py": "d14397054933c577751615414e683ea37571c249e0643b5385716fcfcc4cc122",
+    "scripts/match/common.py": "4dd61b30baba552a81b052a78ef0de5ea97ceec2569dbff7e3ad73bf71209674",
+    "scripts/match/repetition.py": "66495d0dca8370487ca9520d3b6d248dfe6ae3a27f3e228f28ae52286a0f8b77",
+    "scripts/match/dump_games.py": "84984c4fd35f4170c73fc75d94fd2af310fbf60654d2420b00159b47a72f3a51"
+  },
+  "torch_version": "2.14.1+cu130",
+  "device": "cuda",
+  "gpu": "Tesla T4",
+  "seed": 0,
+  "opening_plies": 8,
+  "max_plies": 300,
+  "games_per_configuration": 100,
+  "openings_sha256": "91dc4f1442acd17c7e3a23cd7cfbd457beec3e131dd9ecbc6306685e5f2efccc",
+  "configurations": [
+    [
+      "rep_vs_h8",
+      "h8@30k",
+      false
+    ],
+    [
+      "rep_vs_h1_filter_off",
+      "h1@60k",
+      false
+    ],
+    [
+      "rep_vs_h1_filter_on",
+      "h1@60k",
+      true
+    ]
+  ],
+  "inference": "FP32; AMP and TF32 disabled",
+  "termination_note": "Threefold is an outcome of both players; h8+rep has no external filter."
+}
